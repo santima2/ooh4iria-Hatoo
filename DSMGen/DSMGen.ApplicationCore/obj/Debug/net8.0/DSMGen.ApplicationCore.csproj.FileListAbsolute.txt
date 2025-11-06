@@ -1,0 +1,12 @@
+C:\OOH4RIA\DSM2025\DSMGen\DSMGen.ApplicationCore\bin\Debug\net8.0\DSMGen.ApplicationCore.deps.json
+C:\OOH4RIA\DSM2025\DSMGen\DSMGen.ApplicationCore\bin\Debug\net8.0\DSMGen.ApplicationCore.dll
+C:\OOH4RIA\DSM2025\DSMGen\DSMGen.ApplicationCore\bin\Debug\net8.0\DSMGen.ApplicationCore.pdb
+C:\OOH4RIA\DSM2025\DSMGen\DSMGen.ApplicationCore\obj\Debug\net8.0\DSMGen.ApplicationCore.csproj.AssemblyReference.cache
+C:\OOH4RIA\DSM2025\DSMGen\DSMGen.ApplicationCore\obj\Debug\net8.0\DSMGen.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\OOH4RIA\DSM2025\DSMGen\DSMGen.ApplicationCore\obj\Debug\net8.0\DSMGen.ApplicationCore.AssemblyInfoInputs.cache
+C:\OOH4RIA\DSM2025\DSMGen\DSMGen.ApplicationCore\obj\Debug\net8.0\DSMGen.ApplicationCore.AssemblyInfo.cs
+C:\OOH4RIA\DSM2025\DSMGen\DSMGen.ApplicationCore\obj\Debug\net8.0\DSMGen.ApplicationCore.csproj.CoreCompileInputs.cache
+C:\OOH4RIA\DSM2025\DSMGen\DSMGen.ApplicationCore\obj\Debug\net8.0\DSMGen.ApplicationCore.dll
+C:\OOH4RIA\DSM2025\DSMGen\DSMGen.ApplicationCore\obj\Debug\net8.0\refint\DSMGen.ApplicationCore.dll
+C:\OOH4RIA\DSM2025\DSMGen\DSMGen.ApplicationCore\obj\Debug\net8.0\DSMGen.ApplicationCore.pdb
+C:\OOH4RIA\DSM2025\DSMGen\DSMGen.ApplicationCore\obj\Debug\net8.0\ref\DSMGen.ApplicationCore.dll

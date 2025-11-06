@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="DSMGen.Infraestructure"
+		                   namespace="DSMGen.Infraestructure.EN.DSM1">
+		    
+		    
+			
+				
+<joined-subclass name="ClienteNH" extends="DSMGen.Infraestructure.EN.DSM1.UsuarioNH" table="Cliente"> 
+	<key>
+    	
+				<column name="idUsuarioUsuario"/>
+		
+    	
+   	</key>
+
+			
+					
+			
+			
+		  			
+						<bag name="Pedido" >
+							<key>
+							
+								
+								<column name="FK_idUsuarioUsuario_idCliente"/>
+					      	</key>
+							<one-to-many class="DSMGen.Infraestructure.EN.DSM1.PedidoNH"/>
+					    </bag>
+					
+			
+		  			
+					
+							<many-to-one name="Consulta" class="DSMGen.Infraestructure.EN.DSM1.CarritoNH" >
+								<column name="FK_idCarritoCarrito_idConsulta"/> 
+        					</many-to-one>
+					 
+						
+			
+		  			
+						<bag name="Valiracion" table="[valoracion_cliente]" inverse="true" >
+							<key>
+								
+									<column name="FK_idUsuarioUsuario_idCliente"/> 
+							</key>
+      						<many-to-many class="DSMGen.Infraestructure.EN.DSM1.ValoracionNH">
+									<column name="FK_idValoracionValoracion_idValoracion"/> 
+      						</many-to-many>
+    					</bag>
+			
+		  			
+						<bag name="Soporte" table="[soporte_cliente]" inverse="true" >
+							<key>
+								
+									<column name="FK_idUsuarioUsuario_idCliente"/> 
+							</key>
+      						<many-to-many class="DSMGen.Infraestructure.EN.DSM1.SoporteNH">
+									<column name="FK_idSoporteSoporte_idSoporte"/> 
+      						</many-to-many>
+    					</bag>
+					
+					
+					
+					
+		
+ 	  
+		 </joined-subclass>
+		  
+		  <query name="ClienteNHReadAllHQL">from ClienteNH</query>
+		</hibernate-mapping>
+	

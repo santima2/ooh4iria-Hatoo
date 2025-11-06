@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="DSMGen.Infraestructure"
+		                   namespace="DSMGen.Infraestructure.EN.DSM1">
+		    
+		    
+			
+				<class name="CarritoNH" table="Carrito"> 
+				  	
+						<id name="IdCarrito" column="idCarritoCarrito" type="integer"> 
+							<generator class="hilo"/>
+						</id>
+			
+					
+					<property name="Total" type="double"> 
+						<column name="total"  not-null="true"/>
+					</property>
+			
+			
+			
+			
+		  			
+					
+							   <one-to-one name="Cliente" class="DSMGen.Infraestructure.EN.DSM1.ClienteNH" property-ref="Consulta" />							
+					 
+						
+			
+		  			
+						<bag name="ItemCarrito" >
+							<key>
+							
+								
+								<column name="FK_idCarritoCarrito_idCarrito"/>
+					      	</key>
+							<one-to-many class="DSMGen.Infraestructure.EN.DSM1.ItemCarritoNH"/>
+					    </bag>
+					
+					
+					
+					
+					
+		
+		 </class>	
+		  
+		  <query name="CarritoNHReadAllHQL">from CarritoNH</query>
+		</hibernate-mapping>
+	

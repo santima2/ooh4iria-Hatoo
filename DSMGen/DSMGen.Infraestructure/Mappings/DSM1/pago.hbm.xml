@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="DSMGen.Infraestructure"
+		                   namespace="DSMGen.Infraestructure.EN.DSM1">
+		    
+		    
+			
+				<class name="PagoNH" table="Pago"> 
+				  	
+						<id name="IdPago" column="idPagoPago" type="integer"> 
+							<generator class="hilo"/>
+						</id>
+			
+					
+					<property name="FechaPago" type="date"> 
+						<column name="fechaPago"  not-null="true"/>
+					</property>
+					<property name="TipoPago" type="string"> 
+						<column name="tipoPago"  not-null="true"/>
+					</property>
+					<property name="Total" type="double"> 
+						<column name="total"  not-null="true"/>
+					</property>
+			
+			
+			
+			
+			
+			
+		  			
+					
+							   <one-to-one name="Pedido" class="DSMGen.Infraestructure.EN.DSM1.PedidoNH" property-ref="Pago" />							
+					 
+						
+					
+					
+					
+					
+					
+		
+		 </class>	
+		  
+		  <query name="PagoNHReadAllHQL">from PagoNH</query>
+		</hibernate-mapping>
+	

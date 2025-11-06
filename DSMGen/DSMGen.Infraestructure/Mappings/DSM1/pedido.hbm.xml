@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="DSMGen.Infraestructure"
+		                   namespace="DSMGen.Infraestructure.EN.DSM1">
+		    
+		    
+			
+				<class name="PedidoNH" table="Pedido"> 
+				  	
+						<id name="IdPedido" column="idPedidoPedido" type="integer"> 
+							<generator class="hilo"/>
+						</id>
+			
+					
+					<property name="Fecha" type="date"> 
+						<column name="fecha"  not-null="true"/>
+					</property>
+					<property name="Estado" > 
+						<column name="estado"  not-null="true"/>
+					</property>
+			
+			
+			
+			
+			
+		  			
+						<many-to-one name="Cliente" class="DSMGen.Infraestructure.EN.DSM1.ClienteNH" >	
+								<column name="FK_idUsuarioUsuario_idCliente"/> 
+						</many-to-one>
+											 					
+			
+		  			
+						<bag name="LinPedido" >
+							<key>
+							
+								
+								<column name="FK_idPedidoPedido_idPedido"/>
+					      	</key>
+							<one-to-many class="DSMGen.Infraestructure.EN.DSM1.LinPedidoNH"/>
+					    </bag>
+					
+			
+		  			
+					
+							<many-to-one name="Pago" class="DSMGen.Infraestructure.EN.DSM1.PagoNH" cascade="delete">
+								<column name="FK_idPagoPago_idPago"/> 
+        					</many-to-one>
+					 
+						
+					
+					
+					
+					
+					
+					
+		
+		 </class>	
+		  
+		  <query name="PedidoNHReadAllHQL">from PedidoNH</query>
+		  <query name="PedidoNHPpedidosSombreroHQL"><![CDATA[select ped FROM PedidoNH as ped inner join ped.LinPedido as linea where linea.Sombrero.IdSombrero = :p_idSombrero]]></query>
+		  <query name="PedidoNHPpedidosEsradoHQL"><![CDATA[SELECT ped FROM PedidoNH as ped inner join ped.LinPedido as linea where linea.Sombrero.PrecioBase = :p_precio]]></query>
+		</hibernate-mapping>
+	

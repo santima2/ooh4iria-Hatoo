@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+		  <ItemGroup>
+		  
+	<EmbeddedResource Include="Mappings\DSM1\pedido.hbm.xml" />
+	<EmbeddedResource Include="Mappings\DSM1\cliente.hbm.xml" />
+	<EmbeddedResource Include="Mappings\DSM1\administrador.hbm.xml" />
+	<EmbeddedResource Include="Mappings\DSM1\usuario.hbm.xml" />
+	<EmbeddedResource Include="Mappings\DSM1\carrito.hbm.xml" />
+	<EmbeddedResource Include="Mappings\DSM1\soporte.hbm.xml" />
+	<EmbeddedResource Include="Mappings\DSM1\linpedido.hbm.xml" />
+	<EmbeddedResource Include="Mappings\DSM1\pago.hbm.xml" />
+	<EmbeddedResource Include="Mappings\DSM1\itemcarrito.hbm.xml" />
+	<EmbeddedResource Include="Mappings\DSM1\sombrero.hbm.xml" />
+	<EmbeddedResource Include="Mappings\DSM1\valoracion.hbm.xml" />
+	<EmbeddedResource Include="Mappings\DSM1\personalizacion.hbm.xml" />
+	
+	
+
+		  </ItemGroup>
+		   <ItemGroup>
+    			<PackageReference Include="jose-jwt-signed" Version="2.3.0" />
+   				<PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+   				<PackageReference Include="NHibernate" Version="5.5.2" />
+   				<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+   				
+   				<!--  /*PROTECTED REGION ID(externalLibraries) ENABLED START*/ -->
+   				<!--  /*PROTECTED REGION END*/ -->
+  		  </ItemGroup>
+		  <ItemGroup>
+		    <Content Include="hibernate.cfg.xml">
+		      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		    </Content>
+		  </ItemGroup>
+		  <ItemGroup>
+   			 <ProjectReference Include="..\DSMGen.ApplicationCore\DSMGen.ApplicationCore.csproj"/>
+   		  </ItemGroup>
+		</Project>

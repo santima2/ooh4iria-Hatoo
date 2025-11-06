@@ -1,0 +1,185 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\OOH4RIA\\DSM2025\\DSMGen\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{707DAD7F-5632-4AD7-860E-73A181C52EE2}|InitializeDB\\InitializeDB.csproj|c:\\ooh4ria\\dsm2025\\dsmgen\\initializedb\\createdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{707DAD7F-5632-4AD7-860E-73A181C52EE2}|InitializeDB\\InitializeDB.csproj|solutionrelative:initializedb\\createdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63346C92-B5F9-4D33-82FB-65BED39DB730}|DSMGen.ApplicationCore\\DSMGen.ApplicationCore.csproj|c:\\ooh4ria\\dsm2025\\dsmgen\\dsmgen.applicationcore\\cp\\manual\\pedidocp_recibirpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63346C92-B5F9-4D33-82FB-65BED39DB730}|DSMGen.ApplicationCore\\DSMGen.ApplicationCore.csproj|solutionrelative:dsmgen.applicationcore\\cp\\manual\\pedidocp_recibirpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63346C92-B5F9-4D33-82FB-65BED39DB730}|DSMGen.ApplicationCore\\DSMGen.ApplicationCore.csproj|c:\\ooh4ria\\dsm2025\\dsmgen\\dsmgen.applicationcore\\cen\\manual\\sombrerocen_aumentarstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63346C92-B5F9-4D33-82FB-65BED39DB730}|DSMGen.ApplicationCore\\DSMGen.ApplicationCore.csproj|solutionrelative:dsmgen.applicationcore\\cen\\manual\\sombrerocen_aumentarstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{707DAD7F-5632-4AD7-860E-73A181C52EE2}|InitializeDB\\InitializeDB.csproj|c:\\ooh4ria\\dsm2025\\dsmgen\\initializedb\\initializedb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{707DAD7F-5632-4AD7-860E-73A181C52EE2}|InitializeDB\\InitializeDB.csproj|solutionrelative:initializedb\\initializedb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63346C92-B5F9-4D33-82FB-65BED39DB730}|DSMGen.ApplicationCore\\DSMGen.ApplicationCore.csproj|c:\\ooh4ria\\dsm2025\\dsmgen\\dsmgen.applicationcore\\cp\\manual\\pedidocp_enviarpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63346C92-B5F9-4D33-82FB-65BED39DB730}|DSMGen.ApplicationCore\\DSMGen.ApplicationCore.csproj|solutionrelative:dsmgen.applicationcore\\cp\\manual\\pedidocp_enviarpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63346C92-B5F9-4D33-82FB-65BED39DB730}|DSMGen.ApplicationCore\\DSMGen.ApplicationCore.csproj|c:\\ooh4ria\\dsm2025\\dsmgen\\dsmgen.applicationcore\\cen\\manual\\pedidocen_crear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63346C92-B5F9-4D33-82FB-65BED39DB730}|DSMGen.ApplicationCore\\DSMGen.ApplicationCore.csproj|solutionrelative:dsmgen.applicationcore\\cen\\manual\\pedidocen_crear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63346C92-B5F9-4D33-82FB-65BED39DB730}|DSMGen.ApplicationCore\\DSMGen.ApplicationCore.csproj|c:\\ooh4ria\\dsm2025\\dsmgen\\dsmgen.applicationcore\\cen\\manual\\pagocen_crear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63346C92-B5F9-4D33-82FB-65BED39DB730}|DSMGen.ApplicationCore\\DSMGen.ApplicationCore.csproj|solutionrelative:dsmgen.applicationcore\\cen\\manual\\pagocen_crear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63346C92-B5F9-4D33-82FB-65BED39DB730}|DSMGen.ApplicationCore\\DSMGen.ApplicationCore.csproj|c:\\ooh4ria\\dsm2025\\dsmgen\\dsmgen.applicationcore\\cen\\manual\\carritocen_aplicardescuento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63346C92-B5F9-4D33-82FB-65BED39DB730}|DSMGen.ApplicationCore\\DSMGen.ApplicationCore.csproj|solutionrelative:dsmgen.applicationcore\\cen\\manual\\carritocen_aplicardescuento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63346C92-B5F9-4D33-82FB-65BED39DB730}|DSMGen.ApplicationCore\\DSMGen.ApplicationCore.csproj|c:\\ooh4ria\\dsm2025\\dsmgen\\dsmgen.applicationcore\\cen\\manual\\soportecen_crear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63346C92-B5F9-4D33-82FB-65BED39DB730}|DSMGen.ApplicationCore\\DSMGen.ApplicationCore.csproj|solutionrelative:dsmgen.applicationcore\\cen\\manual\\soportecen_crear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63346C92-B5F9-4D33-82FB-65BED39DB730}|DSMGen.ApplicationCore\\DSMGen.ApplicationCore.csproj|c:\\ooh4ria\\dsm2025\\dsmgen\\dsmgen.applicationcore\\cen\\manual\\sombrerocen_descrementarstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63346C92-B5F9-4D33-82FB-65BED39DB730}|DSMGen.ApplicationCore\\DSMGen.ApplicationCore.csproj|solutionrelative:dsmgen.applicationcore\\cen\\manual\\sombrerocen_descrementarstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PedidoCP_recibirPedido.cs",
+              "DocumentMoniker": "C:\\OOH4RIA\\DSM2025\\DSMGen\\DSMGen.ApplicationCore\\CP\\manual\\PedidoCP_recibirPedido.cs",
+              "RelativeDocumentMoniker": "DSMGen.ApplicationCore\\CP\\manual\\PedidoCP_recibirPedido.cs",
+              "ToolTip": "C:\\OOH4RIA\\DSM2025\\DSMGen\\DSMGen.ApplicationCore\\CP\\manual\\PedidoCP_recibirPedido.cs",
+              "RelativeToolTip": "DSMGen.ApplicationCore\\CP\\manual\\PedidoCP_recibirPedido.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAwwBEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T17:51:25.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateDB.cs",
+              "DocumentMoniker": "C:\\OOH4RIA\\DSM2025\\DSMGen\\InitializeDB\\CreateDB.cs",
+              "RelativeDocumentMoniker": "InitializeDB\\CreateDB.cs",
+              "ToolTip": "C:\\OOH4RIA\\DSM2025\\DSMGen\\InitializeDB\\CreateDB.cs",
+              "RelativeToolTip": "InitializeDB\\CreateDB.cs",
+              "ViewState": "AgIAANMAAAAAAAAAAAAgwNUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T10:59:50.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SombreroCEN_aumentarStock.cs",
+              "DocumentMoniker": "C:\\OOH4RIA\\DSM2025\\DSMGen\\DSMGen.ApplicationCore\\CEN\\manual\\SombreroCEN_aumentarStock.cs",
+              "RelativeDocumentMoniker": "DSMGen.ApplicationCore\\CEN\\manual\\SombreroCEN_aumentarStock.cs",
+              "ToolTip": "C:\\OOH4RIA\\DSM2025\\DSMGen\\DSMGen.ApplicationCore\\CEN\\manual\\SombreroCEN_aumentarStock.cs",
+              "RelativeToolTip": "DSMGen.ApplicationCore\\CEN\\manual\\SombreroCEN_aumentarStock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T16:53:04.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InitializeDB.csproj",
+              "DocumentMoniker": "C:\\OOH4RIA\\DSM2025\\DSMGen\\InitializeDB\\InitializeDB.csproj",
+              "RelativeDocumentMoniker": "InitializeDB\\InitializeDB.csproj",
+              "ToolTip": "C:\\OOH4RIA\\DSM2025\\DSMGen\\InitializeDB\\InitializeDB.csproj",
+              "RelativeToolTip": "InitializeDB\\InitializeDB.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-06T17:54:56.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PedidoCP_enviarPedido.cs",
+              "DocumentMoniker": "C:\\OOH4RIA\\DSM2025\\DSMGen\\DSMGen.ApplicationCore\\CP\\manual\\PedidoCP_enviarPedido.cs",
+              "RelativeDocumentMoniker": "DSMGen.ApplicationCore\\CP\\manual\\PedidoCP_enviarPedido.cs",
+              "ToolTip": "C:\\OOH4RIA\\DSM2025\\DSMGen\\DSMGen.ApplicationCore\\CP\\manual\\PedidoCP_enviarPedido.cs",
+              "RelativeToolTip": "DSMGen.ApplicationCore\\CP\\manual\\PedidoCP_enviarPedido.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T13:15:19.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CarritoCEN_aplicarDescuento.cs",
+              "DocumentMoniker": "C:\\OOH4RIA\\DSM2025\\DSMGen\\DSMGen.ApplicationCore\\CEN\\manual\\CarritoCEN_aplicarDescuento.cs",
+              "RelativeDocumentMoniker": "DSMGen.ApplicationCore\\CEN\\manual\\CarritoCEN_aplicarDescuento.cs",
+              "ToolTip": "C:\\OOH4RIA\\DSM2025\\DSMGen\\DSMGen.ApplicationCore\\CEN\\manual\\CarritoCEN_aplicarDescuento.cs",
+              "RelativeToolTip": "DSMGen.ApplicationCore\\CEN\\manual\\CarritoCEN_aplicarDescuento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T17:04:49.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SombreroCEN_descrementarStock.cs",
+              "DocumentMoniker": "C:\\OOH4RIA\\DSM2025\\DSMGen\\DSMGen.ApplicationCore\\CEN\\manual\\SombreroCEN_descrementarStock.cs",
+              "RelativeDocumentMoniker": "DSMGen.ApplicationCore\\CEN\\manual\\SombreroCEN_descrementarStock.cs",
+              "ToolTip": "C:\\OOH4RIA\\DSM2025\\DSMGen\\DSMGen.ApplicationCore\\CEN\\manual\\SombreroCEN_descrementarStock.cs",
+              "RelativeToolTip": "DSMGen.ApplicationCore\\CEN\\manual\\SombreroCEN_descrementarStock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T16:51:49.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SoporteCEN_crear.cs",
+              "DocumentMoniker": "C:\\OOH4RIA\\DSM2025\\DSMGen\\DSMGen.ApplicationCore\\CEN\\manual\\SoporteCEN_crear.cs",
+              "RelativeDocumentMoniker": "DSMGen.ApplicationCore\\CEN\\manual\\SoporteCEN_crear.cs",
+              "ToolTip": "C:\\OOH4RIA\\DSM2025\\DSMGen\\DSMGen.ApplicationCore\\CEN\\manual\\SoporteCEN_crear.cs",
+              "RelativeToolTip": "DSMGen.ApplicationCore\\CEN\\manual\\SoporteCEN_crear.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAswBMAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T12:45:05.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PagoCEN_crear.cs",
+              "DocumentMoniker": "C:\\OOH4RIA\\DSM2025\\DSMGen\\DSMGen.ApplicationCore\\CEN\\manual\\PagoCEN_crear.cs",
+              "RelativeDocumentMoniker": "DSMGen.ApplicationCore\\CEN\\manual\\PagoCEN_crear.cs",
+              "ToolTip": "C:\\OOH4RIA\\DSM2025\\DSMGen\\DSMGen.ApplicationCore\\CEN\\manual\\PagoCEN_crear.cs",
+              "RelativeToolTip": "DSMGen.ApplicationCore\\CEN\\manual\\PagoCEN_crear.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T12:37:33.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PedidoCEN_crear.cs",
+              "DocumentMoniker": "C:\\OOH4RIA\\DSM2025\\DSMGen\\DSMGen.ApplicationCore\\CEN\\manual\\PedidoCEN_crear.cs",
+              "RelativeDocumentMoniker": "DSMGen.ApplicationCore\\CEN\\manual\\PedidoCEN_crear.cs",
+              "ToolTip": "C:\\OOH4RIA\\DSM2025\\DSMGen\\DSMGen.ApplicationCore\\CEN\\manual\\PedidoCEN_crear.cs",
+              "RelativeToolTip": "DSMGen.ApplicationCore\\CEN\\manual\\PedidoCEN_crear.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T12:21:59.92Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

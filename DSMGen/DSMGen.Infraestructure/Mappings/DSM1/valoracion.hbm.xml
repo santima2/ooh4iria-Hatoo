@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="DSMGen.Infraestructure"
+		                   namespace="DSMGen.Infraestructure.EN.DSM1">
+		    
+		    
+			
+				<class name="ValoracionNH" table="Valoracion"> 
+				  	
+						<id name="IdValoracion" column="idValoracionValoracion" type="integer"> 
+							<generator class="hilo"/>
+						</id>
+			
+					
+					<property name="Comentario" type="string"> 
+						<column name="comentario"  not-null="true"/>
+					</property>
+					<property name="Puntuacion" type="integer"> 
+						<column name="puntuacion"  not-null="true"/>
+					</property>
+			
+			
+			
+			
+			
+		  			
+						<bag name="Cliente" table="[valoracion_cliente]"  >
+							<key>
+								
+									<column name="FK_idValoracionValoracion_idValoracion"/> 
+							</key>
+      						<many-to-many class="DSMGen.Infraestructure.EN.DSM1.ClienteNH">
+									<column name="FK_idUsuarioUsuario_idCliente"/> 
+      						</many-to-many>
+    					</bag>
+			
+		  			
+						<many-to-one name="Sombrero" class="DSMGen.Infraestructure.EN.DSM1.SombreroNH" >	
+								<column name="FK_idSombreroSombrero_idSombrero"/> 
+						</many-to-one>
+											 					
+					
+					
+					
+					
+					
+		
+		 </class>	
+		  
+		  <query name="ValoracionNHReadAllHQL">from ValoracionNH</query>
+		</hibernate-mapping>
+	

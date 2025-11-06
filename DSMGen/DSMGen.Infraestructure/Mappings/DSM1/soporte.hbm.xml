@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="DSMGen.Infraestructure"
+		                   namespace="DSMGen.Infraestructure.EN.DSM1">
+		    
+		    
+			
+				<class name="SoporteNH" table="Soporte"> 
+				  	
+						<id name="IdSoporte" column="idSoporteSoporte" type="integer"> 
+							<generator class="hilo"/>
+						</id>
+			
+					
+					<property name="Mensaje" type="string"> 
+						<column name="mensaje"  not-null="true"/>
+					</property>
+					<property name="FechaEnvio" type="date"> 
+						<column name="fechaEnvio"  not-null="true"/>
+					</property>
+			
+			
+			
+			
+			
+		  			
+						<bag name="Cliente" table="[soporte_cliente]"  >
+							<key>
+								
+									<column name="FK_idSoporteSoporte_idSoporte"/> 
+							</key>
+      						<many-to-many class="DSMGen.Infraestructure.EN.DSM1.ClienteNH">
+									<column name="FK_idUsuarioUsuario_idCliente"/> 
+      						</many-to-many>
+    					</bag>
+					
+					
+					
+					
+		
+		 </class>	
+		  
+		  <query name="SoporteNHReadAllHQL">from SoporteNH</query>
+		</hibernate-mapping>
+	
