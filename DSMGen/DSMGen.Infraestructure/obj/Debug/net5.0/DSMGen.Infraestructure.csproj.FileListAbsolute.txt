@@ -1,0 +1,16 @@
+C:\OOH4RIA\DSM2025\DSMGen\DSMGen.Infraestructure\bin\Debug\net5.0\hibernate.cfg.xml
+C:\OOH4RIA\DSM2025\DSMGen\DSMGen.Infraestructure\bin\Debug\net5.0\DSMGen.Infraestructure.deps.json
+C:\OOH4RIA\DSM2025\DSMGen\DSMGen.Infraestructure\bin\Debug\net5.0\DSMGen.Infraestructure.dll
+C:\OOH4RIA\DSM2025\DSMGen\DSMGen.Infraestructure\bin\Debug\net5.0\DSMGen.Infraestructure.pdb
+C:\OOH4RIA\DSM2025\DSMGen\DSMGen.Infraestructure\bin\Debug\net5.0\DSMGen.ApplicationCore.dll
+C:\OOH4RIA\DSM2025\DSMGen\DSMGen.Infraestructure\bin\Debug\net5.0\DSMGen.ApplicationCore.pdb
+C:\OOH4RIA\DSM2025\DSMGen\DSMGen.Infraestructure\obj\Debug\net5.0\DSMGen.Infraestructure.csproj.AssemblyReference.cache
+C:\OOH4RIA\DSM2025\DSMGen\DSMGen.Infraestructure\obj\Debug\net5.0\DSMGen.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\OOH4RIA\DSM2025\DSMGen\DSMGen.Infraestructure\obj\Debug\net5.0\DSMGen.Infraestructure.AssemblyInfoInputs.cache
+C:\OOH4RIA\DSM2025\DSMGen\DSMGen.Infraestructure\obj\Debug\net5.0\DSMGen.Infraestructure.AssemblyInfo.cs
+C:\OOH4RIA\DSM2025\DSMGen\DSMGen.Infraestructure\obj\Debug\net5.0\DSMGen.Infraestructure.csproj.CoreCompileInputs.cache
+C:\OOH4RIA\DSM2025\DSMGen\DSMGen.Infraestructure\obj\Debug\net5.0\DSMGen.I.1D84831E.Up2Date
+C:\OOH4RIA\DSM2025\DSMGen\DSMGen.Infraestructure\obj\Debug\net5.0\DSMGen.Infraestructure.dll
+C:\OOH4RIA\DSM2025\DSMGen\DSMGen.Infraestructure\obj\Debug\net5.0\refint\DSMGen.Infraestructure.dll
+C:\OOH4RIA\DSM2025\DSMGen\DSMGen.Infraestructure\obj\Debug\net5.0\DSMGen.Infraestructure.pdb
+C:\OOH4RIA\DSM2025\DSMGen\DSMGen.Infraestructure\obj\Debug\net5.0\ref\DSMGen.Infraestructure.dll

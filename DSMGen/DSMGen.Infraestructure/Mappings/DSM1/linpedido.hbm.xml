@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="DSMGen.Infraestructure"
+		                   namespace="DSMGen.Infraestructure.EN.DSM1">
+		    
+		    
+			
+				<class name="LinPedidoNH" table="LinPedido"> 
+				  	
+						<id name="IdLinPedido" column="idLinPedidoLinPedido" type="integer"> 
+							<generator class="hilo"/>
+						</id>
+			
+					
+					<property name="Cantidad" type="integer"> 
+						<column name="cantidad "  not-null="true"/>
+					</property>
+					<property name="Subtotal" type="double"> 
+						<column name="subtotal"  not-null="true"/>
+					</property>
+			
+			
+			
+			
+			
+		  			
+						<many-to-one name="Pedido" class="DSMGen.Infraestructure.EN.DSM1.PedidoNH" >	
+								<column name="FK_idPedidoPedido_idPedido"/> 
+						</many-to-one>
+											 					
+			
+		  			
+						<many-to-one name="Sombrero" class="DSMGen.Infraestructure.EN.DSM1.SombreroNH" >	
+								<column name="FK_idSombreroSombrero_idSombrero"/> 
+						</many-to-one>
+											 					
+			
+		  			
+					
+							<many-to-one name="Personalizacion" class="DSMGen.Infraestructure.EN.DSM1.PersonalizacionNH" >
+								<column name="FK_idPersonalizacionPersonalizacion_idPersonalizacion"/> 
+        					</many-to-one>
+					 
+						
+					
+					
+					
+					
+					
+					
+		
+		 </class>	
+		  
+		  <query name="LinPedidoNHReadAllHQL">from LinPedidoNH</query>
+		</hibernate-mapping>
+	
